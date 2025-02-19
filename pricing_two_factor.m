@@ -57,7 +57,6 @@ function [exact_call_prices] = exact_calls()
 % Vol-of-vol parameters
 k1 = 7.54; k2 = 0.24; rho = 0.7; theta = 0.23; % Set III in Bergomi 2016
 
-% Model smile parameters (paramaters of maturity6 on 08-Jan-2024)
 gamma = 0.60; omega1 = 9.12; omega2 = 1.10; xi0 = 0.03;
 
 % Calculation of alpha_theta^2
@@ -136,7 +135,6 @@ function [prices_quantization] = quantization_calls()
 % Vol-of-vol parameters
 k1 = 7.54; k2 = 0.24; rho = 0.7; theta = 0.23; % Set III in Bergomi 2016
 
-% Model smile parameters (paramaters of maturity6 on 08-Jan-2024)
 gamma = 0.60; omega1 = 9.12; omega2 = 1.10; xi0 = 0.03;
 
 % Calculation of alpha_theta^2
